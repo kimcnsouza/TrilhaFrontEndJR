@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Zeyada&display=swap');
+
+:root{
+    --fonte-texto: montserrat;
+    --fonte-titulo: bebas neue;
+    --fonte-assinatura: zeyada;
+
+    --branco: white;
+    --preto: black;
+    --vermelho: #e53939;
+}
+
