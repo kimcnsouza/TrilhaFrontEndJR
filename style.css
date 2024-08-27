@@ -10,3 +10,26 @@
     --vermelho: #e53939;
 }
 
+/*MENU*/
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    position: fixed;
+    width: 97%;
+    padding: 1% 2%;
+    margin: -1.5rem;
+
+   background-color: rgba(230, 230, 230, 0.7);
+   backdrop-filter: blur(10px);
+}
+
+.menu__link{
+    font-family: var(--fonte-titulo);
+    color: var(--vermelho);
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
