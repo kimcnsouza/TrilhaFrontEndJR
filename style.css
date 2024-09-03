@@ -33,3 +33,44 @@
     font-size: 1.5rem;
     padding: 1rem;
 }
+
+/*INICIO*/
+
+.inicio{
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inicio__imagem{
+    width: 25rem;
+}
+
+.inicio__titulo{
+    font-family: var(--fonte-titulo);
+    font-size: 3rem;
+    font-weight: 100;
+}
+
+.inicio__texto{
+    font-family: var(--fonte-texto);
+    font-size: 1.3rem;
+}
+
+.inicio__links{
+    display: flex;
+    justify-content: space-around;
+}
+
+.inicio__links__link{
+    font-family: var(--fonte-titulo);
+    font-size: 1.5rem;
+    font-weight: 100;
+    text-decoration: none;
+    color: var(--branco);
+    background-color: var(--preto);
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+}
