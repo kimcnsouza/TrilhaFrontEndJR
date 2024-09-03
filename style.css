@@ -124,3 +124,32 @@
     width: 4rem;
     padding: 1%;
 }
+
+/*MINHAS PAIXÕES*/
+
+.minhasPaixoes{
+    padding: 8% 5%;
+}
+
+.minhasPaixoes__titulo{
+    font-family: var(--fonte-titulo);
+    font-size: 2.5rem;
+    font-weight: 100;
+}
+
+.minhasPaixoes__divs{
+    display: flex;
+    flex-direction: column;
+}
+
+.minhasPaixoes__imagem{
+    width: 5rem;
+    padding: 1rem;
+}
+
+.minhasPaixoes__texto{
+    font-family: var(--fonte-texto);
+    font-size: 2rem;
+}
+
+/* preciso ajustar o flexbox, adicionar borda para se tornar um card, adicionar o hover para adicionar cor e o texto span quando passar o mouse e ocultar quando não estiver em cima */
