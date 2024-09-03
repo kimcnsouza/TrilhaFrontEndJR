@@ -91,3 +91,36 @@
     font-family: var(--fonte-texto);
     font-size: 1.3rem;
 }
+
+/*Minhas Skills*/
+
+.minhaSkill{
+    padding: 8% 5%;
+}
+
+.minhaSkill__divs1{
+    display: flex;
+    padding: 0% 20%;
+}
+
+.minhaSkill__divs2{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0% 20%;
+}
+
+.minhaSkill__titulo{
+    font-family: var(--fonte-titulo);
+    font-size: 2.5rem;
+    font-weight: 100;
+}
+
+.minhaSkill__texto{
+    font-family: var(--fonte-texto);
+    font-size: 2rem;
+}
+
+.minhaSkill__imagem{
+    width: 4rem;
+    padding: 1%;
+}
